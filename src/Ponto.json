@@ -1,0 +1,92 @@
+{
+  "Name": "Ponto",
+  "CreationDate": "2023-3-3",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://ahgora.com.br/novabatidaonline/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "3000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/div/div[2]/p[3]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/div/div[2]/p[3]",
+        "xpath=//p[3]",
+        "css=#root > div > div.MuiGrid-root.jss50.MuiGrid-item > p:nth-child(3)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/div/div[2]/div/div[2]/button/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/div/div[2]/div/div[2]/button/span",
+        "xpath=//span",
+        "css=#root > div > div.MuiGrid-root.jss50.MuiGrid-item > div.MuiGrid-root.jss65.MuiGrid-container.MuiGrid-spacing-xs-3 > div.MuiGrid-root.jss67.jss100.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-lg-5 > button > span.MuiButton-label"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/div/div/div[3]/div[2]/button[2]/span/p",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/div/div/div[3]/div[2]/button[2]/span/p",
+        "xpath=//span/p",
+        "css=#root > div > div.jss85 > div.MuiBox-root.jss154.jss121 > div.MuiBox-root.jss158.jss141 > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.jss144 > span.MuiButton-label > p"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/div/div/div[3]/div[2]/button/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/div/div/div[3]/div[2]/button/span",
+        "xpath=//span",
+        "css=#root > div > div.jss85 > div.MuiBox-root.jss154.jss122 > div.MuiBox-root.jss158.jss123 > button > span.MuiButton-label"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "waitForPageToLoad",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=CLOSE",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
